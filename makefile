@@ -1,7 +1,7 @@
 target=main.o remove_comments.o
 CC=gcc
-exe:$(target)
-	$(CC) $(target) -o exe
+stage:$(target)
+	$(CC) $(target) -o stage
 main.o:main.c
 	$(CC) -c main.c
 remove_comments.o:remove_comments.c
